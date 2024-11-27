@@ -15,8 +15,10 @@ dependencies:
     - numpy
     # - SimpleITK
     - matplotlib
-    - cil=24.1.0
+    - cil=24.2.0
+    - ipp=2021.12
     - ccpi-regulariser
     - tigre
-    - astra-toolbox
+    - astra-toolbox=*=cuda*
     - cudatoolkit
+    - k3d
